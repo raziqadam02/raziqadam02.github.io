@@ -14,7 +14,7 @@ export default function DataWarehousePage() {
   const [activeImage, setActiveImage] = useState<string | null>(null);
 
   return (
-    <main className="relative flex h-screen overflow-hidden px-6 py-8 md:py-10">
+    <main className="relative flex min-h-screen overflow-y-auto px-6 py-8 md:h-screen md:overflow-hidden md:py-10">
       <Link
         href="/project"
         className="absolute left-6 top-6 z-10 font-heading text-2xl lowercase tracking-wide transition duration-300 ease-out hover:-translate-x-0.5 hover:opacity-70 hover:underline hover:underline-offset-8 md:left-8 md:top-8"
@@ -22,7 +22,7 @@ export default function DataWarehousePage() {
         back
       </Link>
 
-      <section className="mx-auto grid h-full w-full max-w-6xl grid-cols-1 items-start gap-8 pt-8 md:gap-10 md:pt-10 lg:grid-cols-2 lg:gap-24 lg:pt-6">
+      <section className="mx-auto grid h-auto w-full max-w-6xl grid-cols-1 items-start gap-8 pt-8 md:h-full md:gap-10 md:pt-10 lg:grid-cols-2 lg:gap-24 lg:pt-6">
         <figure className="mx-auto w-full max-w-md space-y-4 lg:mx-0 lg:max-w-none lg:-translate-x-14 lg:space-y-5">
           {projectImages.map((imageSrc, index) => (
             <button
