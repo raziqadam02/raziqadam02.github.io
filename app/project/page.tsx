@@ -14,6 +14,18 @@ const projects = [
     imageSrc: "/images/project/datapipeline/datapipeline.png",
     imageAlt: "Data Pipeline project preview",
   },
+  {
+    name: "ArcHIve SySTem",
+    href: "/project/archive-system",
+    imageSrc: "/images/project/archivesystem/archivesystem.png",
+    imageAlt: "Archive System project preview",
+  },
+  {
+    name: "LibrArY ReGIStrAtion SySTem",
+    href: "/project/library-registration",
+    imageSrc: "/images/project/libraryregistration/libraryregistration.png",
+    imageAlt: "Library Registration System project preview",
+  },
 ];
 
 export default function ProjectPage() {
@@ -27,7 +39,7 @@ export default function ProjectPage() {
       </Link>
 
       <section className="mx-auto flex w-full max-w-6xl items-center pt-14 md:pt-16">
-        <div className="grid w-full grid-cols-1 gap-x-12 gap-y-14 md:grid-cols-2 md:gap-y-16">
+        <div className="grid w-full grid-cols-1 gap-x-12 gap-y-10 md:grid-cols-2 md:gap-y-12">
           {projects.map((project) => (
             <article key={project.href} className="mx-auto w-full max-w-xl text-center">
               <Link href={project.href} className="group block">
@@ -37,7 +49,7 @@ export default function ProjectPage() {
                     alt={project.imageAlt}
                     width={1200}
                     height={800}
-                    className="h-64 w-full object-cover transition duration-500 ease-out group-hover:scale-[1.02] md:h-72"
+                    className="h-40 w-full object-cover transition duration-500 ease-out group-hover:scale-[1.02] md:h-44"
                   />
                 </div>
               </Link>

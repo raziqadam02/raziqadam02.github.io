@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Raziq Adam Portfolio
 
-## Getting Started
+A personal portfolio website showcasing my software development, data engineering, and analytics projects.
 
-First, run the development server:
+Built with Next.js and Tailwind CSS, the portfolio follows a clean editorial-inspired design focused on simplicity, usability, and project storytelling.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* About Me section
+* Project showcase with detailed case studies
+* Responsive design
+* Custom typography using Schoolbell and Satoshi
+* Interactive project galleries
+* Contact links to GitHub, LinkedIn, and Email
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Projects
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Archive System
 
-## Learn More
+Full-stack document management system built with React.js, Node.js, Express.js, and SQLite.
 
-To learn more about Next.js, take a look at the following resources:
+### Library Registration System
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Library registration and visitor management platform built with Laravel, PHP, JavaScript, and SQLite.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Data Warehouse Platform
 
-## Deploy on Vercel
+End-to-end data warehouse and analytics project using Python, Snowflake, SQL, and Power BI.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Fuel Price ETL Pipeline
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Automated ETL pipeline using Python, PostgreSQL, AWS RDS, Docker, and SQL.
+
+## Tech Stack
+
+### Frontend
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+
+### Backend & Data
+
+* Python
+* Node.js
+* Express.js
+* Laravel
+* PHP
+* SQL
+
+### Databases
+
+* PostgreSQL
+* SQLite
+* Snowflake
+
+### Analytics & BI
+
+* Power BI
+* Tableau
+
+### Tools
+
+* Git & GitHub
+* Docker
+* AWS RDS
+
+
+## Contact
+
+GitHub: https://github.com/raziqadam02
+
+LinkedIn: https://www.linkedin.com/in/raziq-adam-115637367/
+
+Email: [raziqadamyus@gmail.com](mailto:raziqadamyus@gmail.com)

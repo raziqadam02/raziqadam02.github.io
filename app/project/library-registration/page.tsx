@@ -5,12 +5,12 @@ import Link from "next/link";
 import { useState } from "react";
 
 const projectImages = [
-  "/images/project/datapipeline/datapipeline.png",
-  "/images/project/datapipeline/datapipeline2.png",
-  "/images/project/datapipeline/datapipeline3.png"
+  "/images/project/libraryregistration/libraryregistration.png",
+  "/images/project/libraryregistration/libraryregistration2.png",
+  "/images/project/libraryregistration/libraryregistration3.png"
 ];
 
-export default function DataPipelinePage() {
+export default function LibraryRegistrationPage() {
   const [activeImage, setActiveImage] = useState<string | null>(null);
 
   return (
@@ -30,11 +30,11 @@ export default function DataPipelinePage() {
               type="button"
               onClick={() => setActiveImage(imageSrc)}
               className="group relative block w-full overflow-hidden rounded-lg border-4 border-black text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black/60 focus-visible:ring-offset-2"
-              aria-label={`Open Data Pipeline screenshot ${index + 1}`}
+              aria-label={`Open Library Registration System screenshot ${index + 1}`}
             >
               <Image
                 src={imageSrc}
-                alt={`Data Pipeline screenshot ${index + 1}`}
+                alt={`Library Registration System screenshot ${index + 1}`}
                 width={900}
                 height={1200}
                 className="h-32 w-full object-contain transition duration-500 ease-out group-hover:scale-[1.01] md:h-40 lg:h-44"
@@ -46,33 +46,36 @@ export default function DataPipelinePage() {
 
         <article className="mx-auto flex w-full max-w-xl flex-col justify-start text-left lg:-mt-4">
           <section className="space-y-4">
-            <h1 className="font-heading text-2xl tracking-wide md:text-3xl">DATA PIPELINE</h1>
+            <h1 className="font-heading text-2xl tracking-wide md:text-3xl">
+              LIBRARY REGISTRATION SYSTEM
+            </h1>
             <p className="font-sans text-sm leading-relaxed text-foreground/80 md:text-base">
-            ETL pipeline to automate the process of ingesting, transforming, and storing structured datasets into a centralized database for analytics-ready consumption.
-            The system focuses on data quality and consistency
+              Developed a library registration and visitor management system to streamline visitor
+              registration, administrative operations, and reporting through a centralized web platform.
             </p>
           </section>
 
           <section className="mt-6 space-y-3 md:mt-7">
             <h2 className="font-heading text-2xl tracking-wide md:text-3xl">TEcH sTAck</h2>
             <p className="font-sans text-sm leading-relaxed text-foreground/80 md:text-base">
-            Python, Pandas, PostgreSQL, AWS RDS, Docker, SQL
+              Laravel, PHP, JavaScript, SQLite
             </p>
           </section>
 
           <section className="mt-6 space-y-3 md:mt-7">
             <h2 className="font-heading text-2xl tracking-wide md:text-3xl">KEy FeaTuREs</h2>
             <ul className="list-disc space-y-2 pl-5 font-sans text-sm leading-relaxed text-foreground/80 marker:text-foreground/70 md:text-base">
-              <li>Built an end-to-end ETL pipeline to process and load fuel price data into AWS RDS</li>
-              <li>Implemented data cleaning and validation using Python to ensure data quality and consistency</li>
-              <li>Containerized the database with Docker and used SQL for structured, analytics-ready data transformation</li>
+              <li>Developed visitor registration and authentication workflows</li>
+              <li>Built an analytics dashboard for visitor reporting and trends</li>
+              <li>Migrated legacy records into a structured database system</li>
             </ul>
           </section>
 
           <section className="mt-6 space-y-3 md:mt-7">
             <h2 className="font-heading text-2xl tracking-wide md:text-3xl">wHaT i BuILt</h2>
             <p className="font-sans text-sm leading-relaxed text-foreground/80 md:text-base">
-            I built a complete ETL pipeline that transforms raw fuel price data into structured, analytics-ready datasets using Python, SQL, PostgreSQL (AWS RDS), and Docker.
+              Designed and developed the application architecture, backend services, database schema,
+              reporting dashboard, and data migration workflows.
             </p>
           </section>
         </article>
@@ -99,7 +102,7 @@ export default function DataPipelinePage() {
             </button>
             <Image
               src={activeImage}
-              alt="Data Pipeline enlarged screenshot"
+              alt="Library Registration System enlarged screenshot"
               width={1800}
               height={1200}
               className="h-auto max-h-[82vh] w-full object-contain"
