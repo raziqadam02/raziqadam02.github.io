@@ -4,6 +4,10 @@ A personal portfolio website showcasing my software development, data engineerin
 
 Built with Next.js and Tailwind CSS, the portfolio follows a clean editorial-inspired design focused on simplicity, usability, and project storytelling.
 
+##Link
+
+https://raziqadam02.github.io/
+
 ## Features
 
 * About Me section
