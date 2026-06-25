@@ -92,6 +92,12 @@ export default function Home() {
           >
             PrOjecTS
           </Link>
+          <Link
+            href="/certificates"
+            className="font-heading text-3xl lowercase tracking-wide transition duration-300 ease-out hover:scale-105 hover:underline hover:underline-offset-8"
+          >
+            CeRTiFicaTeS
+          </Link>
         </nav>
       </section>
 

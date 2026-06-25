@@ -35,45 +35,8 @@ End-to-end data warehouse and analytics project using Python, Snowflake, SQL, an
 
 Automated ETL pipeline using Python, PostgreSQL, AWS RDS, Docker, and SQL.
 
-## Tech Stack
-
-### Frontend
-
-* Next.js
-* TypeScript
-* Tailwind CSS
-
-### Backend & Data
-
-* Python
-* Node.js
-* Express.js
-* Laravel
-* PHP
-* SQL
-
-### Databases
-
-* PostgreSQL
-* SQLite
-* Snowflake
-
-### Analytics & BI
-
-* Power BI
-* Tableau
-
-### Tools
-
-* Git & GitHub
-* Docker
-* AWS RDS
-
-
 ## Contact
 
-GitHub: https://github.com/raziqadam02
-
-LinkedIn: https://www.linkedin.com/in/raziq-adam-115637367/
+LinkedIn: www.linkedin.com/in/raziqadam
 
 Email: [raziqadamyus@gmail.com](mailto:raziqadamyus@gmail.com)
